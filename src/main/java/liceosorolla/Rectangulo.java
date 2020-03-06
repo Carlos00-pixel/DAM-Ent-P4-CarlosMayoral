@@ -62,5 +62,20 @@ public class Rectangulo {
 		
 		return  (int) Math.sqrt(diagonal);
 	}
+	
+	public int circunferencia() {
+		int ladoCorto = 0;
+		int radio=0;
+		
+		if(this.lado1 > this.lado2) {
+			
+			ladoCorto = lado2;
+			
+		}else ladoCorto = lado1;
+		
+		radio = ladoCorto / 2;
+		
+		return radio;
+	}
 
 }
