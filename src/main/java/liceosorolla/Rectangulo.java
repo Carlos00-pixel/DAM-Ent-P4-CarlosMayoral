@@ -38,5 +38,13 @@ public class Rectangulo {
 		
 		return comprobar;
 	}
+	
+	public int perimetro() {
+		int perimetro=0;
+	
+		perimetro = (this.lado1 + this.lado2)*2;
+		
+		return perimetro;
+	}
 
 }

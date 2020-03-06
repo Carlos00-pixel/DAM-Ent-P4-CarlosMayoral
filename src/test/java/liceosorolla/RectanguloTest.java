@@ -11,14 +11,20 @@ public class RectanguloTest {
 	@Before
 	public void Before() {
 		
-		rectangulo = new Rectangulo(5,5);
+		rectangulo = new Rectangulo(5,6);
 		
 	}
 	
 	@Test
 	public void comprobarCuadrado() {
 		
-		assertEquals(true,rectangulo.esCuadrado());
+		assertEquals(false,rectangulo.esCuadrado());
+	}
+	
+	@Test
+	public void comprobarPerimetro() {
+		
+		assertEquals(22,rectangulo.perimetro());
 	}
 
 }
