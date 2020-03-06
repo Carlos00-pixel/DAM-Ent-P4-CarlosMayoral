@@ -46,5 +46,13 @@ public class Rectangulo {
 		
 		return perimetro;
 	}
+	
+	public int area() {
+		int area=0;
+	
+		area = this.lado1 * this.lado2;
+		
+		return area;
+	}
 
 }
