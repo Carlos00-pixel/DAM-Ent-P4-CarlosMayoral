@@ -30,4 +30,10 @@ public class AnimalTest {
 		
 	}
 	
+	@Test
+	public void comprobarPeso() {
+		
+		assertEquals(4,5, animal.getPeso());
+		
+	}
 }
