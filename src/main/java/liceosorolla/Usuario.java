@@ -78,4 +78,9 @@ public class Usuario {
 		return this.nombre.toLowerCase();
 	}
 	
+	public String nombreCompletoMayus() {
+		return this.nombre.toUpperCase() + " " + this.apellidos.toUpperCase();
+		
+	}
+
 }
