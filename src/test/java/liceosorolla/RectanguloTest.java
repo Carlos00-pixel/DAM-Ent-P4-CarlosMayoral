@@ -1,8 +1,8 @@
-package test.java.liceosorolla;
+package src.test.java.liceosorolla;
 
 import org.junit.Before;
 import org.junit.Test;
-import main.java.liceosorolla.Rectangulo;
+import src.main.java.liceosorolla.Rectangulo;
 import static org.junit.Assert.assertEquals;
 
 public class RectanguloTest {

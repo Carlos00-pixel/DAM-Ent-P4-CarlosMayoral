@@ -1,4 +1,4 @@
-package main.java.liceosorolla;
+package src.main.java.liceosorolla;
 import java.time.LocalDate;
 import java.time.Year;
 
