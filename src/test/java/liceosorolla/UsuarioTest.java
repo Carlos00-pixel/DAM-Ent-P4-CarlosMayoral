@@ -56,4 +56,10 @@ public class UsuarioTest {
 		
 		assertEquals("alejandro", usuario.nombreMinisculas());
 	}
+	
+	@Test
+	public void compruebaNombreCompletoMayus() {
+		
+		assertEquals("ALEJANDRO TONTIN TONTON", usuario.nombreCompletoMayus());
+	}
 }
