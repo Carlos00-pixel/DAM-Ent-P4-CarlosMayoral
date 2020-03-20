@@ -47,4 +47,12 @@ public class Animal {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+	
+	public String getColorPelo() {
+		return colorPelo;
+	}
+
+	public void setColorPelo(String colorPelo) {
+		this.colorPelo = colorPelo;
+	}
 }
