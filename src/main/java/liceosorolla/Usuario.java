@@ -83,4 +83,8 @@ public class Usuario {
 		
 	}
 
+	public String nombreCompletoMinus() {
+		return this.nombre.toLowerCase() + " " + this.apellidos.toLowerCase();
+		
+	}
 }
