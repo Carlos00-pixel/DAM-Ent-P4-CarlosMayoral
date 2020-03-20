@@ -62,4 +62,10 @@ public class UsuarioTest {
 		
 		assertEquals("ALEJANDRO TONTIN TONTON", usuario.nombreCompletoMayus());
 	}
+	
+	@Test
+	public void compruebaNombreCompletoMinus() {
+		
+		assertEquals("alejandro tontin tonton", usuario.nombreCompletoMinus());
+	}
 }
